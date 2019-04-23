@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="FacetManager">
+    <facet type="hibernate" name="Hibernate">
+      <configuration>
+        <datasource-map>
+          <unit-entry name="quanly-web:src:main:resources:hibernate.cfg.xml" value="fd55e86b-aa3e-4e0d-87ba-1cbf0b8b9eb7" />
+          <unit-entry name="quanly-web:target:classes:hibernate.cfg.xml" value="1025bdb1-ac75-4bc2-8d38-91f3f9f227a2" />
+        </datasource-map>
+        <naming-strategy-map />
+      </configuration>
+    </facet>
+    <facet type="web" name="Web">
+      <configuration>
+        <webroots>
+          <root url="file://$MODULE_DIR$/quanly-web/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+  </component>
+</module>

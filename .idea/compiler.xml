@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="quanly-api-test" />
+        <module name="quanly-core-common" />
+        <module name="quanly-core-dao" />
+        <module name="quanly-core-dao-impl" />
+        <module name="quanly-core-data" />
+        <module name="quanly-core-dto" />
+        <module name="quanly-core-persistence-data" />
+        <module name="quanly-core-service" />
+        <module name="quanly-core-service-impl" />
+        <module name="quanly-core-utils" />
+        <module name="quanly-core-web" />
+        <module name="quanly-web" />
+        <module name="quanly-web-logic" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
