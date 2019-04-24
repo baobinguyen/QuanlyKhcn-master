@@ -7,373 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fac4b6c9-25a5-493e-a85e-4ef7359a00e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/c97f2d23-722b-428d-a899-302ec60c6474.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ApplicationFile/database/0_create_database.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuanLyKhcn.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-api-test/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-api-test/quanly-api-test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-api-test/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-api-test/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-api-test/src/main/resources/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-api-test/src/test/java/vn/duytan/api/test/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-common/src/main/java/vn/duytan/core/common/constant/CoreConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-common/src/main/java/vn/duytan/core/common/util/HibernateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-dao-impl/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-dao-impl/src/main/java/vn/duytan/core/daoimpl/CbgvDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-dao-impl/src/main/java/vn/duytan/core/daoimpl/RoleDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-dao/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-dao/src/main/java/vn/duytan/core/dao/CbgvDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-dao/src/main/java/vn/duytan/core/dao/RoleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-data/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-data/src/main/java/vn/duytan/core/data/dao/GenericDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-data/src/main/java/vn/duytan/core/data/daoimpl/AbstractDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-dto/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-dto/src/main/java/vn/duytan/core/dto/CbgvDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-dto/src/main/java/vn/duytan/core/dto/DonviDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-dto/src/main/java/vn/duytan/core/dto/RoleDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-persistence-data/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-persistence-data/src/main/java/vn/duytan/core/persistence/entity/CbgvEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-persistence-data/src/main/java/vn/duytan/core/persistence/entity/Cbgv_ctEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-persistence-data/src/main/java/vn/duytan/core/persistence/entity/Cbgv_vbEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-persistence-data/src/main/java/vn/duytan/core/persistence/entity/ChuyennganhEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-persistence-data/src/main/java/vn/duytan/core/persistence/entity/CtadthuctienEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-persistence-data/src/main/java/vn/duytan/core/persistence/entity/DanhmucctEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-persistence-data/src/main/java/vn/duytan/core/persistence/entity/DanhmucvbEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-persistence-data/src/main/java/vn/duytan/core/persistence/entity/DetaikhcngandayEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-persistence-data/src/main/java/vn/duytan/core/persistence/entity/DonviEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-persistence-data/src/main/java/vn/duytan/core/persistence/entity/GiaithuongEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-persistence-data/src/main/java/vn/duytan/core/persistence/entity/KinhnghiemkhcnEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-persistence-data/src/main/java/vn/duytan/core/persistence/entity/LinhvucEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-persistence-data/src/main/java/vn/duytan/core/persistence/entity/NganhEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-persistence-data/src/main/java/vn/duytan/core/persistence/entity/NguyencuusinhEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-persistence-data/src/main/java/vn/duytan/core/persistence/entity/QuatrinhctEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-persistence-data/src/main/java/vn/duytan/core/persistence/entity/QuatrinhdtEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-persistence-data/src/main/java/vn/duytan/core/persistence/entity/RoleEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-persistence-data/src/main/java/vn/duytan/core/persistence/entity/TrinhdonnEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-service-impl/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-service-impl/src/main/java/vn/duytan/core/service/impl/CbgvServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-service/src/main/java/vn/duytan/core/service/CbgvService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-utils/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-utils/src/main/java/vn/duytan/core/utils/CbgvBeanUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-utils/src/main/java/vn/duytan/core/utils/DonviBeanUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-utils/src/main/java/vn/duytan/core/utils/RoleBeanUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-web/quanly-core-web.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-web/src/main/java/vn/duytan/core/web/command/AbstractCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-web/src/main/java/vn/duytan/core/web/common/WebConstrant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-web/src/main/java/vn/duytan/core/web/utils/FormUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-web/src/main/java/vn/duytan/core/web/utils/TestUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-web/target/classes/vn/duytan/core/web/command/AbstractCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-web/target/classes/vn/duytan/core/web/common/WebConstrant.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-web/target/classes/vn/duytan/core/web/utils/FormUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-core-web/target/classes/vn/duytan/core/web/utils/TestUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web-logic/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web-logic/src/main/java/vn/duytan/command/CbgvCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web-logic/src/main/java/vn/duytan/controller/admin/AdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web-logic/src/main/java/vn/duytan/controller/admin/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web-logic/src/main/java/vn/duytan/controller/web/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/resources/ApplicationResources.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/resources/displaytag.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/WEB-INF/decorators.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/common/admin/fooder.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/common/admin/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/common/admin/menu.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/common/login/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/common/taglib.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/common/web/fooder.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/common/web/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/common/web/menu.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/decorators/admin.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/decorators/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/decorators/web.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/avatars/avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/avatars/avatar1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/avatars/avatar2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/avatars/avatar3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/avatars/avatar4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/avatars/avatar5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/avatars/profile-pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/avatars/user.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/css/ace-ie.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/css/ace-part2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/css/ace-rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/css/ace.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/css/bootstrap-datetimepicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/css/bootstrap-duallistbox.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/css/bootstrap-editable.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/css/bootstrap-multiselect.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/css/bootstrap-timepicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/css/chosen-sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/css/chosen-sprite@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/css/chosen.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/css/colorbox.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/css/colorpicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/css/colorpicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/css/datepicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/css/daterangepicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/css/dropzone.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/css/fullcalendar.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/css/images/border.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/css/images/controls.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/css/images/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/css/images/loading_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/css/images/meteorshower2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/css/images/overlay.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/css/images/pattern.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/css/img/alpha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/css/img/hue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/css/img/saturation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/css/jquery-ui.custom.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/css/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/css/jquery.gritter.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/css/prettify.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/css/select2-spinner.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/css/select2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/css/select2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/css/select2x2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/css/ui.jqgrid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/css/ui.jqgrid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/font-awesome/4.1.0/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/font-awesome/4.1.0/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/font-awesome/4.1.0/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/font-awesome/4.1.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/font-awesome/4.1.0/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/font-awesome/4.2.0/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/font-awesome/4.2.0/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/font-awesome/4.2.0/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/font-awesome/4.2.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/font-awesome/4.2.0/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/fonts/fonts.googleapis.com.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/images/email1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/images/email2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/images/email3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/images/email4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/images/gallery/image-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/images/gallery/image-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/images/gallery/image-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/images/gallery/image-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/images/gallery/image-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/images/gallery/image-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/images/gallery/thumb-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/images/gallery/thumb-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/images/gallery/thumb-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/images/gallery/thumb-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/images/gallery/thumb-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/images/gallery/thumb-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/images/homeadmin.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/images/spritemap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/images/spritemap@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/img/clear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/ace-editable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/ace-elements.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/ace-extra.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/ace.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/additional-methods.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/bootbox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/bootstrap-colorpicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/bootstrap-datepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/bootstrap-datetimepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/bootstrap-editable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/bootstrap-markdown.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/bootstrap-multiselect.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/bootstrap-tag.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/bootstrap-timepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/bootstrap-wysiwyg.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/chosen.jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/dataTables.colVis.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/dataTables.tableTools.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/daterangepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/dropzone.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/excanvas.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/fuelux.spinner.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/fuelux.tree.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/fuelux.wizard.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/fullcalendar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/grid.locale-en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/html5shiv.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/jquery-ui.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/jquery.1.11.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/jquery.2.1.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/jquery.autosize.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/jquery.bootstrap-duallistbox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/jquery.colorbox-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/jquery.colorbox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/jquery.dataTables.bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/jquery.dataTables.bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/jquery.dataTables.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/jquery.easypiechart.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/jquery.flot.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/jquery.flot.pie.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/jquery.flot.resize.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/jquery.gritter.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/jquery.hotkeys.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/jquery.inputlimiter.1.3.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/jquery.jqGrid.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/jquery.knob.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/jquery.maskedinput.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/jquery.mobile.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/jquery.nestable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/jquery.raty.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/jquery.slimscroll.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/jquery.sparkline.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/jquery.ui.touch-punch.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/jquery1x.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/markdown.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/moment.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/prettify.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/respond.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/select2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/spin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/js/typeahead.jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/sweetalert2/sweetalert2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/sweetalert2/sweetalert2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/assets/swf/copy_csv_xls_pdf.swf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/css/global_admin_style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/data-table/data-table-bootstrap4-1.0.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/data-table/data_table-1.0.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/data-table/ellipsis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/data-table/media/css/dataTables.bootstrap4_v4.6.1.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/data-table/media/css/dataTables.materia_v4.6.1.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/data-table/media/js/dataTables.material-1.0.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/data-table/sum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/font-awesome/4.5.0/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/font/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/font/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/js/global_admin_script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/js/jquery-2.2.3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/js/jquery-2.2.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/sweetalert/sweetalert2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/admin/sweetalert/sweetalert2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/._css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/._font" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/._img" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/._js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/css/._.DS_Store" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/css/._bootstrap-responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/css/._bootstrap-responsive.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/css/._bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/css/._bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/font/._FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/font/._fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/font/._fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/font/._fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/font/._fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/img/._.DS_Store" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/img/._glyphicons-halflings-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/img/._glyphicons-halflings.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/img/._icon-service1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/img/._icon-service2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/img/._icon-service3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/img/._icon-service4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/img/._icon-service5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/img/._icon-service6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/img/._icon1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/img/._icon2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/img/._icon3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/img/._icon4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/img/._img-60x60.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/img/._img1-870x400.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/img/._img1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/img/._img2-870x400.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/img/._img2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/img/._logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/img/._responsive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/img/._slide-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/img/._team1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/img/._team2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/img/._team3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/img/._virus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/img/slide/._slide1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/img/slide/._slide2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/img/slide/._slide3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/img/slide/._slide4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/img/slide/._slide5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/img/social/._.DS_Store" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/img/social/._dribbble.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/img/social/._googleplus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/img/social/._rss.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/img/social/._twitter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/js/._.DS_Store" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/js/._bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/js/._html5shiv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/__MACOSX/js/._jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/css/bootstrap-responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/css/bootstrap-responsive.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/font/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/font/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/font/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/font/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/font/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/img/glyphicons-halflings-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/img/glyphicons-halflings.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/img/icon-service1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/img/icon-service2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/img/icon-service3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/img/icon-service4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/img/icon-service5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/img/icon-service6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/img/icon1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/img/icon2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/img/icon3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/img/icon4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/img/img-60x60.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/img/img1-870x400.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/img/img1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/img/img2-870x400.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/img/img2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/img/responsive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/img/slide-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/img/slide/slide1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/img/slide/slide2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/img/slide/slide3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/img/slide/slide4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/img/slide/slide5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/img/social/dribbble.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/img/social/googleplus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/img/social/rss.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/img/social/twitter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/img/team1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/img/team2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/img/team3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/img/virus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/js/html5shiv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/views/admin/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/views/web/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/views/web/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quanly-web-logic/src/main/java/vn/duytan/controller/admin/CbgvController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/views/admin/listCbgv/cbgv.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quanly-core-web/src/main/java/vn/duytan/core/web/command/AbstractCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/quanly-core-web/src/main/java/vn/duytan/core/web/command/AbstractCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quanly-core-web/target/classes/vn/duytan/core/web/command/AbstractCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/quanly-core-web/target/classes/vn/duytan/core/web/command/AbstractCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quanly-web/src/main/resources/ApplicationResources.properties" beforeDir="false" afterPath="$PROJECT_DIR$/quanly-web/src/main/resources/ApplicationResources.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quanly-web/src/main/webapp/common/admin/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/quanly-web/src/main/webapp/common/admin/menu.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/quanly-core-persistence-data/target/" />
     <ignored path="$PROJECT_DIR$/quanly-core-data/target/" />
@@ -435,51 +75,136 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quanly-core-data/src/main/java/vn/duytan/core/data/daoimpl/AbstractDao.java">
+        <entry file="file://$PROJECT_DIR$/quanly-web/src/main/webapp/views/admin/listCbgv/cbgv.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quanly-web-logic/src/main/java/vn/duytan/controller/admin/LoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="18" selection-start-line="18" selection-end-line="19" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/quanly-web/src/main/webapp/WEB-INF/decorators.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quanly-core-dao-impl/src/main/java/vn/duytan/core/daoimpl/RoleDaoImpl.java">
+        <entry file="file://$PROJECT_DIR$/quanly-web/src/main/webapp/decorators/admin.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
+            <state relative-caret-position="-714" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/quanly-core-dao-impl/src/main/java/vn/duytan/core/daoimpl/CbgvDaoImpl.java">
+        <entry file="file://$PROJECT_DIR$/quanly-web/src/main/webapp/common/admin/menu.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="367">
+              <caret line="70" column="50" lean-forward="true" selection-start-line="70" selection-start-column="50" selection-end-line="70" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/quanly-web/src/main/webapp/common/web/menu.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/quanly-web/src/main/webapp/common/web/header.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/quanly-core-dto/src/main/java/vn/duytan/core/dto/CbgvDTO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="38" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/quanly-core-web/src/main/java/vn/duytan/core/web/command/AbstractCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-646">
+              <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+              <folding>
+                <element signature="e#672#673#0" expanded="true" />
+                <element signature="e#699#700#0" expanded="true" />
+                <element signature="e#837#838#0" expanded="true" />
+                <element signature="e#890#891#0" expanded="true" />
+                <element signature="e#938#939#0" expanded="true" />
+                <element signature="e#972#973#0" expanded="true" />
+                <element signature="e#1005#1006#0" expanded="true" />
+                <element signature="e#1054#1055#0" expanded="true" />
+                <element signature="e#1098#1099#0" expanded="true" />
+                <element signature="e#1132#1133#0" expanded="true" />
+                <element signature="e#1165#1166#0" expanded="true" />
+                <element signature="e#1214#1215#0" expanded="true" />
+                <element signature="e#1258#1259#0" expanded="true" />
+                <element signature="e#1299#1300#0" expanded="true" />
+                <element signature="e#1336#1337#0" expanded="true" />
+                <element signature="e#1396#1397#0" expanded="true" />
+                <element signature="e#1448#1449#0" expanded="true" />
+                <element signature="e#1488#1489#0" expanded="true" />
+                <element signature="e#1524#1525#0" expanded="true" />
+                <element signature="e#1582#1583#0" expanded="true" />
+                <element signature="e#1632#1633#0" expanded="true" />
+                <element signature="e#1670#1671#0" expanded="true" />
+                <element signature="e#1702#1703#0" expanded="true" />
+                <element signature="e#1754#1755#0" expanded="true" />
+                <element signature="e#1796#1797#0" expanded="true" />
+                <element signature="e#1834#1835#0" expanded="true" />
+                <element signature="e#1867#1868#0" expanded="true" />
+                <element signature="e#1920#1921#0" expanded="true" />
+                <element signature="e#1964#1965#0" expanded="true" />
+                <element signature="e#1998#1999#0" expanded="true" />
+                <element signature="e#2028#2029#0" expanded="true" />
+                <element signature="e#2074#2075#0" expanded="true" />
+                <element signature="e#2112#2113#0" expanded="true" />
+                <element signature="e#2154#2155#0" expanded="true" />
+                <element signature="e#2192#2193#0" expanded="true" />
+                <element signature="e#2254#2255#0" expanded="true" />
+                <element signature="e#2308#2309#0" expanded="true" />
+                <element signature="e#2336#2337#0" expanded="true" />
+                <element signature="e#2363#2364#0" expanded="true" />
+                <element signature="e#2400#2401#0" expanded="true" />
+                <element signature="e#2432#2433#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/quanly-web-logic/src/main/java/vn/duytan/controller/admin/CbgvController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="34" column="91" selection-start-line="34" selection-start-column="91" selection-end-line="34" selection-end-column="91" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#750#759#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/quanly-web-logic/src/main/java/vn/duytan/controller/admin/AdminController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -498,7 +223,6 @@
         <option value="$PROJECT_DIR$/quanly-web/src/main/webapp/views/admin/home.jsp" />
         <option value="$PROJECT_DIR$/quanly-web/src/main/webapp/common/admin/header.jsp" />
         <option value="$PROJECT_DIR$/quanly-web/src/main/webapp/common/admin/fooder.jsp" />
-        <option value="$PROJECT_DIR$/quanly-web/src/main/webapp/common/admin/menu.jsp" />
         <option value="$PROJECT_DIR$/quanly-web/src/main/webapp/decorators/admin.jsp" />
         <option value="$PROJECT_DIR$/quanly-web-logic/src/main/java/vn/duytan/controller/web/HomeController.java" />
         <option value="$PROJECT_DIR$/quanly-web/src/main/webapp/common/web/fooder.jsp" />
@@ -518,11 +242,15 @@
         <option value="$PROJECT_DIR$/quanly-core-utils/src/main/java/vn/duytan/core/utils/CbgvBeanUtils.java" />
         <option value="$PROJECT_DIR$/quanly-core-dao-impl/src/main/java/vn/duytan/core/daoimpl/CbgvDaoImpl.java" />
         <option value="$PROJECT_DIR$/quanly-web-logic/src/main/java/vn/duytan/controller/admin/LoginController.java" />
-        <option value="$PROJECT_DIR$/quanly-web/src/main/resources/ApplicationResources.properties" />
         <option value="$PROJECT_DIR$/quanly-web/src/main/resources/displaytag.properties" />
         <option value="$PROJECT_DIR$/quanly-web/pom.xml" />
         <option value="$PROJECT_DIR$/quanly-web/src/main/webapp/common/taglib.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/quanly-web/src/main/resources/ApplicationResources.properties" />
+        <option value="$PROJECT_DIR$/quanly-core-web/src/main/java/vn/duytan/core/web/command/AbstractCommand.java" />
+        <option value="$PROJECT_DIR$/quanly-web/src/main/webapp/views/admin/listCbgv/cbgv.jsp" />
+        <option value="$PROJECT_DIR$/quanly-web-logic/src/main/java/vn/duytan/controller/admin/CbgvController.java" />
+        <option value="$PROJECT_DIR$/quanly-web/src/main/webapp/common/admin/menu.jsp" />
       </list>
     </option>
   </component>
@@ -585,7 +313,9 @@
     <option name="width" value="666" />
     <option name="height" value="688" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -904,6 +634,36 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuanLyKhcn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Quanlykhcn-master" type="462c0819:PsiDirectoryNode" />
+              <item name="quanly-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuanLyKhcn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Quanlykhcn-master" type="462c0819:PsiDirectoryNode" />
+              <item name="quanly-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuanLyKhcn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Quanlykhcn-master" type="462c0819:PsiDirectoryNode" />
+              <item name="quanly-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="decorators" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -942,7 +702,27 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="listCbgv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuanLyKhcn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Quanlykhcn-master" type="462c0819:PsiDirectoryNode" />
+              <item name="quanly-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="QuanLyKhcn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Quanlykhcn-master" type="462c0819:PsiDirectoryNode" />
+              <item name="quanly-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="QuanLyKhcn" type="b2602c69:ProjectViewProjectNode" />
@@ -1022,7 +802,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555966565390" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556038840594" />
     <property name="nodejs.jest.jest_package" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -1144,7 +924,7 @@
       <workItem from="1555948718346" duration="5071000" />
       <workItem from="1555957902284" duration="8403000" />
       <workItem from="1556003235403" duration="1235000" />
-      <workItem from="1556006465859" duration="780000" />
+      <workItem from="1556006465859" duration="8189000" />
     </task>
     <servers />
   </component>
@@ -1181,7 +961,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35610000" />
+    <option name="totallyTimeSpent" value="43019000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1194,8 +974,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3139183" />
+      <window_info id="Repositories" weight="0.2980333" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30484116" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Persistence" order="3" side_tool="true" />
@@ -1207,7 +989,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4977307" weight="0.31462586" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.78668684" visible="true" weight="0.17517006" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.78668684" weight="0.05102041" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924356" weight="0.10204082" />
@@ -1218,7 +1000,7 @@
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.48487142" weight="0.3469388" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" sideWeight="0.49848714" weight="0.32993197" />
       <window_info anchor="bottom" id="Database Changes" order="13" sideWeight="0.49924356" weight="0.32993197" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="14" visible="true" weight="0.8367347" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.21938775" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1319,66 +1101,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/quanly-web/src/main/webapp/template/web/web/js/jquery.js" />
-    <entry file="file://$PROJECT_DIR$/quanly-web/src/main/webapp/common/web/fooder.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quanly-web/src/main/webapp/decorators/admin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1139">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quanly-web/src/main/webapp/common/web/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="35" column="75" selection-start-line="35" selection-start-column="75" selection-end-line="35" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quanly-web/src/main/webapp/views/web/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="39" column="74" lean-forward="true" selection-start-line="39" selection-start-column="74" selection-end-line="39" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quanly-core-service/src/main/java/vn/duytan/core/service/CbgvService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quanly-web-logic/src/main/java/vn/duytan/command/CbgvCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="41" lean-forward="true" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quanly-core-web/src/main/java/vn/duytan/core/web/command/AbstractCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#672#673#0" expanded="true" />
-            <element signature="e#699#700#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quanly-core-service-impl/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/quanly-core-persistence-data/src/main/java/vn/duytan/core/persistence/entity/Cbgv_ctEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-510">
@@ -1507,13 +1229,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quanly-web-logic/src/main/java/vn/duytan/controller/admin/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/quanly-core-persistence-data/src/main/java/vn/duytan/core/persistence/entity/RoleEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1528,13 +1243,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quanly-web-logic/src/main/java/vn/duytan/controller/web/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="70" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/quanly-web/src/main/webapp/views/admin/home.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-140">
@@ -1543,9 +1251,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/quanly-web/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/quanly-web/src/main/resources/ApplicationResources.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/quanly-web/src/main/webapp/decorators/web.jsp">
@@ -1620,16 +1325,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quanly-web-logic/src/main/java/vn/duytan/controller/admin/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="18" selection-start-line="18" selection-end-line="19" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/quanly-core-dao-impl/src/main/java/vn/duytan/core/daoimpl/RoleDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1637,13 +1332,140 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/quanly-web/src/main/resources/ApplicationResources.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/quanly-core-dao-impl/src/main/java/vn/duytan/core/daoimpl/CbgvDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="163">
+          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quanly-web-logic/src/main/java/vn/duytan/controller/web/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" selection-start-line="12" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quanly-web-logic/src/main/java/vn/duytan/controller/admin/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quanly-web-logic/src/main/java/vn/duytan/controller/admin/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quanly-core-web/src/main/java/vn/duytan/core/web/command/AbstractCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-646">
+          <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+          <folding>
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
+            <element signature="e#1054#1055#0" expanded="true" />
+            <element signature="e#1098#1099#0" expanded="true" />
+            <element signature="e#1132#1133#0" expanded="true" />
+            <element signature="e#1165#1166#0" expanded="true" />
+            <element signature="e#1214#1215#0" expanded="true" />
+            <element signature="e#1258#1259#0" expanded="true" />
+            <element signature="e#1299#1300#0" expanded="true" />
+            <element signature="e#1336#1337#0" expanded="true" />
+            <element signature="e#1396#1397#0" expanded="true" />
+            <element signature="e#1448#1449#0" expanded="true" />
+            <element signature="e#1488#1489#0" expanded="true" />
+            <element signature="e#1524#1525#0" expanded="true" />
+            <element signature="e#1582#1583#0" expanded="true" />
+            <element signature="e#1632#1633#0" expanded="true" />
+            <element signature="e#1670#1671#0" expanded="true" />
+            <element signature="e#1702#1703#0" expanded="true" />
+            <element signature="e#1754#1755#0" expanded="true" />
+            <element signature="e#1796#1797#0" expanded="true" />
+            <element signature="e#1834#1835#0" expanded="true" />
+            <element signature="e#1867#1868#0" expanded="true" />
+            <element signature="e#1920#1921#0" expanded="true" />
+            <element signature="e#1964#1965#0" expanded="true" />
+            <element signature="e#1998#1999#0" expanded="true" />
+            <element signature="e#2028#2029#0" expanded="true" />
+            <element signature="e#2074#2075#0" expanded="true" />
+            <element signature="e#2112#2113#0" expanded="true" />
+            <element signature="e#2154#2155#0" expanded="true" />
+            <element signature="e#2192#2193#0" expanded="true" />
+            <element signature="e#2254#2255#0" expanded="true" />
+            <element signature="e#2308#2309#0" expanded="true" />
+            <element signature="e#2336#2337#0" expanded="true" />
+            <element signature="e#2363#2364#0" expanded="true" />
+            <element signature="e#2400#2401#0" expanded="true" />
+            <element signature="e#2432#2433#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quanly-core-dto/src/main/java/vn/duytan/core/dto/CbgvDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quanly-web-logic/src/main/java/vn/duytan/controller/admin/CbgvController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="34" column="91" selection-start-line="34" selection-start-column="91" selection-end-line="34" selection-end-column="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#750#759#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quanly-web/src/main/webapp/views/admin/listCbgv/cbgv.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quanly-web/src/main/webapp/WEB-INF/decorators.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quanly-web/src/main/webapp/decorators/admin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-714" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quanly-web/src/main/webapp/common/web/menu.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quanly-web/src/main/webapp/common/web/header.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quanly-web/src/main/webapp/common/admin/menu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="70" column="50" lean-forward="true" selection-start-line="70" selection-start-column="50" selection-end-line="70" selection-end-column="50" />
         </state>
       </provider>
     </entry>

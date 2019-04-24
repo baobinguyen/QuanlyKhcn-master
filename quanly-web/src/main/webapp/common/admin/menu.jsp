@@ -49,7 +49,7 @@
             <b class="arrow"></b>
             <ul class="submenu">
                 <li class="">
-                    <a href="${listenGuidelineListUrl}">
+                    <a href="/cbgv.html">
                         <i class="menu-icon fa fa-caret-right"></i>
                         <%--<fmt:message key="label.guideline.listen.list" bundle="${lang}"/>--%>
                     </a>
@@ -67,9 +67,9 @@
             <b class="arrow"></b>
             <ul class="submenu">
                 <li class="">
-                    <a href="${userListUrl}">
+                    <a href="<c:url value="/cbgv.html" /> ">
                         <i class="menu-icon fa fa-caret-right"></i>
-                        <%--<fmt:message key="label.user.management" bundle="${lang}"/>--%>
+                        quan ly
                     </a>
                     <b class="arrow"></b>
                 </li>
